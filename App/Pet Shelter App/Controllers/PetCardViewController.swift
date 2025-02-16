@@ -30,7 +30,7 @@ class PetCardViewController: UIViewController {
         let petNameLabel = UILabel()
         petNameLabel.text = "Samoyed Willy"
         petNameLabel.font = UIFont(name: "SFProDisplay-Bold", size: 32)
-        petNameLabel.textColor = .black
+        petNameLabel.textColor = .yellow
         petNameLabel.translatesAutoresizingMaskIntoConstraints = false
         
         let ageTag = createTagView(text: "1 year", backgroundColor: UIColor(named: "YellowColor") ?? UIColor.systemYellow)
@@ -52,7 +52,7 @@ class PetCardViewController: UIViewController {
         let button = UIButton(type: .system)
         button.setTitle("Sign up for an acquaintance", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.backgroundColor = UIColor.button
+        button.backgroundColor = UIColor.systemRed
         button.layer.cornerRadius = 30
         button.clipsToBounds = true
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -89,14 +89,14 @@ class PetCardViewController: UIViewController {
     
     func createTagView(text: String, backgroundColor: UIColor) -> UIView {
         let containerView = UIView()
-        containerView.backgroundColor = backgroundColor
+        containerView.backgroundColor = .cyan
         containerView.layer.cornerRadius = 14.5
         containerView.translatesAutoresizingMaskIntoConstraints = false
         
         let label = UILabel()
         label.text = text
-        label.font = UIFont.systemFont(ofSize: 14, weight: .medium)
-        label.textColor = .white
+        label.font = UIFont.systemFont(ofSize: 20, weight: .medium)
+        label.textColor = .purple
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
         

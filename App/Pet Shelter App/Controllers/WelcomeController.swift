@@ -29,7 +29,7 @@ class WelcomeController: UIViewController {
 
         
         let button = UIButton(type: .system)
-        button.setTitle("Let's Go", for: .normal)
+        button.setTitle("ARRRR", for: .normal)
         button.setTitleColor(.white, for: .normal) // Цвет текста
         button.backgroundColor = UIColor.button // Установка кастомного цвета
         button.layer.cornerRadius = 30 // Закругление углов
@@ -55,7 +55,7 @@ class WelcomeController: UIViewController {
         
         
         let labelDescriptor = UILabel()
-        labelDescriptor.text = "Happiness is closer than you think"
+        labelDescriptor.text = "MEEEOOOOOWWWWW"
         labelDescriptor.textColor = .white // Цвет текста
         labelDescriptor.font = UIFont(name: "SFProDisplay-Bold", size: 32)// Шрифт SF Pro Display
         labelDescriptor.textAlignment = .center // Выравнивание по центру
